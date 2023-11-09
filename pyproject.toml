@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "clrfy"
+version = "0.1.0"
+description = ""
+authors = ["DT Mirizzi <dtmirizzi@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.11"
+llm = "^0.12"
+langchain = "^0.0.333"
+click = "^8.1.7"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
